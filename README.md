@@ -15,19 +15,17 @@ Follow these steps to get the Java application running in a Docker container:
     Open your terminal or command prompt and run the following command to clone the repository to your local machine:
 
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/nijal2003/Docker-Java-Sample.git
     ```
-    *(Replace `<your-repository-url>` with the actual URL of your GitHub repository)*
 
 2.  **Navigate to the directory:**
 
     Change your current directory to the cloned repository:
 
     ```bash
-    cd simple-java-docker
+    cd Docker-Java-Sample
     ```
-    *(If you named your repository differently, use that name instead of `simple-java-docker`)*
-
+    
 3.  **Build the Docker image:**
 
     Use the following command to build the Docker image. This command looks for the `Dockerfile` in the current directory and creates an image tagged as `java-app`.
